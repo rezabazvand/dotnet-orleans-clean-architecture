@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SampleOrleans.Application/SampleOrleans.Application.csproj" />
+    <Project Path="src/SampleOrleans.Domain/SampleOrleans.Domain.csproj" />
+    <Project Path="src/SampleOrleans.Host/SampleOrleans.Host.csproj" />
+    <Project Path="src/SampleOrleans.Infrastructure/SampleOrleans.Infrastructure.csproj" />
+  </Folder>
+</Solution>

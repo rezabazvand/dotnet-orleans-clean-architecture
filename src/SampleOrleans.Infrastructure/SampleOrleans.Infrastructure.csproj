@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleOrleans.Application\SampleOrleans.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Orleans.Sdk" Version="$(OrleansVersion)" />
+    <PackageReference Include="Microsoft.Orleans.Server" Version="$(OrleansVersion)" />
+    <PackageReference Include="Microsoft.Orleans.Reminders" Version="$(OrleansVersion)" />
+  </ItemGroup>
+
+</Project>
